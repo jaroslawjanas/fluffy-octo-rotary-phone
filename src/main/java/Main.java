@@ -30,8 +30,7 @@ public class Main {
         Course csit = new Course("Computer Science");
         csit.setStarDate("27/01/2019");
         csit.setEndDate("29/06/2021");
-
-
+        
         m1.addStudent(s1);
         m2.addStudent(s2);
         m3.addStudent(s3);
