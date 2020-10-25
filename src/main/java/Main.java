@@ -32,8 +32,11 @@ public class Main {
         csit.setEndDate("29/06/2021");
         
         m1.addStudent(s1);
+        m1.addStudent(s3);
         m2.addStudent(s2);
+        m2.addStudent(s3);
         m3.addStudent(s3);
+        m3.removeStudent(s3);
 
         csit.addModule(m1);
         csit.addModule(m2);
